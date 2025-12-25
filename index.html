@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Carlo Celso Portfolio</title>
+		<title>Carlo Celso Portfolio Project</title>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/png" href="images/icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -43,12 +43,12 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active" href="index.html"><a >Project</a></li>
-							<li><a href="achievements.html">Achievements And Certificates</a></li>
+							<li><a href="certificate.html">Course Completion Certificate</a></li>
 							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" target="_blank"  rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/eschewer" target="_blank"  rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -62,8 +62,15 @@
 										Created insights using Excel by cleaning and analyzing a public dataset, and building an interactive dashboard to show key distributions and top individual net worths.
 										</p>
 								<a class="image main">
-								<img src="images/excel_dashboard.png" alt="Excel Dashboard" 
-									style="display: block; margin: 0 auto; width:880px; height:auto; transform: none; transition: none;" />
+								<img src="images/excel_dashboard.png"
+								srcset="
+								images/excel_dashboard.png 400w,
+								images/excel_dashboard.png 600w,
+								images/excel_dashboard.png 900w"
+								sizes="(max-width: 600px)
+								100vw, 600px"
+								alt="Excel Dashboard" 
+									style="display: block; margin: 0 auto; height:auto; transform: none; transition: none;" />
 								</a>
 								<p style="font-family: 'Arial'; font-size: 18px; text-align:left; ">
 								<b>Top 10 Gap:</b> Even among the richest people, there is a big difference in wealth between the #1 spot (Bernard Arnault) and the rest of the top 10.<br><br>
@@ -94,6 +101,27 @@
 									<li><a href="https://github.com/eschewer/retail_store_sales/blob/main/retail_store_sales.sql" 
   									 	target="_blank" 
    										rel="noopener noreferrer" class="button large">View Project</a></li>
+								</ul>
+								</header>
+								<hr style="border: 1px solid black; margin-bottom: 20px;">
+								<header class="major">
+									<h2><a>Power BI<br/></a></h2>
+									<p style="text-align:center; font-style:italic;">
+										Transformed my SQL findings into an interactive Power BI dashboard. I chose Power BI for this project because I am more familiar with it than Tableau, allowing me to build the visualizations more effectively.
+										</p>
+								<a class="image main">
+								<img src="images/powerbi_dashboard.png" alt="Power BI" 
+									style="display: block; margin: 0 auto; width:880px; height:auto; transform: none; transition: none; border: 2px solid #ccc; padding: 5px;" />
+								</a>
+								<p style="font-family: 'Arial'; font-size: 18px; text-align:left; ">
+									<b>Customer Loyalty:</b> The data identifies how each customer ranks based on their total spending, highlighting the store's highest-contributing shoppers.
+									<br><br><b>Products Performance:</b> Products can be ranked by their total sales volume or overall revenue generated to identify which items are driving the most business value.
+									<br><br><b>Sales Trend Over Time:</b> Reveals the monthly sales fluctuations from 2022 to 2025, highlighting periods of growth and seasonal demand.
+								<p style="font-family: 'Arial'; font-size: 15px; text-align:left; font-style:italic;"> To learn more, you can download the Power BI file below.</p>
+								<ul class="actions special">
+									<li><a href="files/retail_store_sales.pbix" 
+  									 	target="_blank" 
+   										rel="noopener noreferrer" class="button large">Download Project</a></li>
 								</ul>
 								</header>
 							</article>
@@ -233,7 +261,7 @@
 									<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 									<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a  href="https://github.com/eschewer" target="_blank"  rel="noopener noreferrer" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
